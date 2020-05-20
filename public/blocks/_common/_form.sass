@@ -5,28 +5,23 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"]
-    user-select: none
-    @include default-text-input
-
+  user-select: none
+  @include default-text-input
 textarea
-    user-select: none
-    @include default-textarea
-
+  user-select: none
+  @include default-textarea
 label,
 legend
-    user-select: none
-    display: block
-
+  user-select: none
+  display: block
 fieldset
-    padding: 0
-    border-width: 0
-
+  padding: 0
+  border-width: 0
 input[type="checkbox"],
 input[type="radio"]
-    display: inline
-    user-select: none
-
+  display: inline
+  user-select: none
 select
+  user-select: none
+  option
     user-select: none
-    option
-        user-select: none
